@@ -14,10 +14,4 @@ def reverse_each_word(string)
   end
   sentense2.join(" ")
   
-  sentense3 = string.split(" ")
-  new_sentense = []
-  sentense3.map do|string|
-    return_array << string.reverse
-  end
-  return_array.join(" ")
 end
