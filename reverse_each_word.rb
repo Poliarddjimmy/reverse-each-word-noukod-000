@@ -12,6 +12,6 @@ def reverse_each_word(string)
   sentence2.collect do|string|
     new_array << string.reverse
   end
-  sentence2.join(" ")
+  new_sentence.join(" ")
   
 end
